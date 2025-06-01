@@ -1,8 +1,10 @@
+import { ReactNode } from "react";
+
 export type Product = {
-  brand: ReactNode;
-  compound: ReactNode;
-  category: ReactNode;
-  image: any;
+  brand?: ReactNode;
+  compound?: ReactNode;
+  category?: ReactNode;
+  image?: any;
   name?: ReactNode;
   title: string;
   reviews: number;
